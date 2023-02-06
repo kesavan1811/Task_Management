@@ -1,0 +1,22 @@
+@import "properties.scss";
+
+.statusLine{
+    width: 100%;
+    margin: 0 0.5rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 0px 10px 10px;
+    background-color: #eff3f8;
+}
+
+.statusLine h3{
+    font-weight: 500;
+    margin: 1rem 0;
+    color: rgb(75, 75, 75);
+}
+
+@media only screen and (max-width:75rem) {
+    .statusLine{
+        width: initial;
+    }
+}
